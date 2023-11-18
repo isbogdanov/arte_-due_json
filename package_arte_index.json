@@ -1,0 +1,225 @@
+{
+  "packages": [
+    {
+      "maintainer": "Retis Lab - Sant'Anna School of Advanced Studies Pisa",
+      "help": {
+        "online": "http://arte.retis.santannapisa.it"
+      },
+      "websiteURL": "http://arte.retis.santannapisa.it",
+      "platforms": [
+        {
+          "category": "Arduino",
+          "help": {
+            "online": "http://arte.retis.santannapisa.it"
+          },
+          "url": "http://arte.retis.santannapisa.it/packages/arte_arduino_due_1_6_11_arte_r1.tar.gz",
+	  "checksum": "SHA-256:afe69cc78d6f1df11de8136173ef88c7394e67619a17d789960b73e85c8ab940",
+          "version": "1.6.11-arte-r1",
+          "architecture": "sam",
+          "archiveFileName": "arte_arduino_due_1_6_11_arte_r1.tar.gz",
+          "boards": [
+            {
+              "name": "Arduino Due"
+            }
+	  ],
+          "size": "38868823",
+          "toolsDependencies": [
+            {
+              "packager": "ARTe-RetisLab",
+              "version": "1.0.0",
+              "name": "ARTe-core"
+            },
+	    {
+	      "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.3a-arduino"
+            }
+          ],
+          "name": "ARTe Arduino Due"
+        },
+        {
+          "category": "arduino",
+          "help": {
+            "online": "http://arte.retis.santannapisa.it"
+          },
+          "url": "http://arte.retis.santannapisa.it/packages/arte_arduino_due_1_6_11_arte_r2.tar.gz",
+	  "checksum": "SHA-256:cd663b8551c76a49a154327323532e441fdac740851025f99d1ba1a16d918c35",
+          "version": "1.6.11-arte-r2",
+          "architecture": "sam",
+          "archiveFileName": "arte_arduino_due_1_6_11_arte_r2.tar.gz",
+          "boards": [
+            {
+              "name": "Arduino Due"
+            }
+	  ],
+          "size": "38861222",
+          "toolsDependencies": [
+            {
+              "packager": "ARTe-RetisLab",
+              "version": "1.0.1",
+              "name": "ARTe-core"
+            },
+	    {
+	      "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.3a-arduino"
+            }
+          ],
+          "name": "ARTe Arduino Due"
+        },
+	{
+          "category": "Arduino",
+          "help": {
+            "online": "http://arte.retis.santannapisa.it"
+          },
+          "url": "http://arte.retis.santannapisa.it/packages/arte_arduino_due_1_6_11_arte_r2.tar.gz",
+	  "checksum": "SHA-256:cd663b8551c76a49a154327323532e441fdac740851025f99d1ba1a16d918c35",
+          "version": "1.6.11-arte-r3",
+          "architecture": "sam",
+          "archiveFileName": "arte_arduino_due_1_6_11_arte_r2.tar.gz",
+          "boards": [
+            {
+              "name": "Arduino Due"
+            }
+	  ],
+          "size": "38861222",
+          "toolsDependencies": [
+            {
+              "packager": "ARTe-RetisLab",
+              "version": "1.0.2",
+              "name": "ARTe-core"
+            },
+	    {
+	      "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.3a-arduino"
+            }
+          ],
+          "name": "ARTe Arduino Due"
+        }
+
+      ],
+      "tools": [
+        {
+          "version": "1.0.0",
+          "name": "ARTe-core",
+          "systems": [
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_1_0_0.tar.gz",
+              "checksum": "MD5:95f2aa092060a6c5c1b500f5e6eae7af",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "arte_core_linux_1_0_0.tar.gz",
+              "size": "29427803"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_1_0_0.tar.gz",
+              "checksum": "MD5:95f2aa092060a6c5c1b500f5e6eae7af",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "arte_core_linux_1_0_0.tar.gz",
+              "size": "29427803"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_macos_1_0_0.tar.gz",
+              "checksum": "MD5:f17f897b7a4007d1984bcf4e0efc98aa",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "arte_core_macos_1_0_0.tar.gz",
+              "size": "113236984"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_win_1_0_0.tar.gz",
+              "checksum": "MD5:a654dbffba219a4533800cf150de1ece",
+              "host": "i686-mingw32",
+              "archiveFileName": "arte_core_win_1_0_0.tar.gz",
+              "size": "87049308"
+            }
+          ]
+        },
+        {
+          "version": "1.0.1",
+          "name": "ARTe-core",
+          "systems": [
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_x86_1_0_1.tar.gz",
+              "checksum": "MD5:ea8ed69314146ac4010b9f0dbb2be016",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "arte_core_linux_x86_1_0_1.tar.gz",
+              "size": "29302501"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_x86_64_1_0_1.tar.gz",
+              "checksum": "MD5:0c6dac3db758f3f02059cc2b4e9fbbfd",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "arte_core_linux_x86_64_1_0_1.tar.gz",
+              "size": "29438019"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_macos_1_0_1.tar.gz",
+              "checksum": "MD5:5938817830d5293897844af170d69057",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "arte_core_macos_1_0_1.tar.gz",
+              "size": "113249226"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_win_1_0_1.tar.gz",
+              "checksum": "MD5:2cc6284e36ce1d0efe4f7649feadf60f",
+              "host": "i686-mingw32",
+              "archiveFileName": "arte_core_win_1_0_1.tar.gz",
+              "size": "87066241"
+            }
+          ]
+        },
+        {
+          "version": "1.0.2",
+          "name": "ARTe-core",
+          "systems": [
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_x86_1_0_2.tar.gz",
+              "checksum": "MD5:363e487d2ffd100a23556f3a86134036",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "arte_core_linux_x86_1_0_2.tar.gz",
+              "size": "29302371"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_linux_x86_64_1_0_2.tar.gz",
+              "checksum": "MD5:ab9b5a726f8ee2c8de932b364e6ec7e8",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "arte_core_linux_x86_64_1_0_2.tar.gz",
+              "size": "29460081"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_macos_1_0_2.tar.gz",
+              "checksum": "MD5:e8fb6f41ed2ceb02042ac2f03ba67b57",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "arte_core_macos_1_0_2.tar.gz",
+              "size": "113253475"
+            },
+            {
+              "url": "http://arte.retis.santannapisa.it/packages/arte_core_win_1_0_2.tar.gz",
+              "checksum": "MD5:16626984bf22dea9b02db2411cb0514a",
+              "host": "i686-mingw32",
+              "archiveFileName": "arte_core_win_1_0_2.tar.gz",
+              "size": "87065846"
+            }
+          ]
+        }
+      ],
+      "email": "f.restuccia@sssup.it",
+      "name": "ARTe-RetisLab"
+    }
+  ]
+}
